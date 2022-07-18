@@ -1,0 +1,49 @@
+/* About Us Style */
+.about-page {
+	margin-top: 50px;
+    margin-bottom: 80px;
+    .right-content{
+        h4 {
+            font-size: 17px;
+            font-weight: $bold;
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+        span {
+            display: $display-def;
+            margin-left: 8px;
+        }
+        span a i {
+            transition: all 0.5s;
+            background-color: $color-05;
+            width: 26px;
+            height: 26px;
+            display: $display-def;
+            text-align: center;
+            line-height: 26px;
+            border-radius: 50%;
+            color: $color-03;
+            font-size: 12px;
+            margin-right: 5px;
+        }
+        .share {
+            margin-top: 20px;
+            border-top: 1px solid $color-04;
+            padding: $pdn-normal 0px;
+        }
+        h6 {
+            font-size: 14px;
+            color: $color-07;
+            font-weight: 400;
+        }
+    }
+    .left-image{
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+.about-page .right-content span a:hover i {
+	background-color: $color-06;
+}

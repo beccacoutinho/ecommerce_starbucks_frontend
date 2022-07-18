@@ -1,0 +1,131 @@
+/* Single Product Style */
+.single-product {
+    
+    .product-slider {
+	padding: 20px;
+	border: 1px solid $color-04!important;
+	border-radius: 5px;
+    }
+    .right-content{
+        h4 {
+            font-size: 17px;
+            font-weight: $bold;
+            margin-top: 0px;
+        }
+        h6 {
+            color: $color-06;
+            font-size: 17px;
+            font-weight: $bold;
+            margin-top: 10px;
+        }
+        p {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        span {
+            font-size: 14px;
+            color: $color-06;
+            font-weight: 500;
+            display: $display-def;
+            margin-bottom: $margin-default;
+        }
+        label {
+            font-size: 14px;
+            color: $color-07;
+        }
+        .button {
+            margin-left: $margin-default;
+            cursor: pointer;
+            background-color: $color-06;
+            outline: none;
+            border-radius: 5px;
+            padding: 10px $pdn-normal;
+            display: $display-def;
+            color: $color-03;
+            font-size: 14px;
+            text-transform: $txt_style;
+            font-weight: 300;
+            letter-spacing: 0.4px;
+            text-decoration: none;
+            transition: all 0.5s;
+            box-shadow: none;
+            border: none;
+        }
+    }
+
+}
+
+.flexslider {
+	border: none!important;
+}
+#carousel {
+	margin-top: 20px;
+
+    .slides li {
+        width: 150px!important;
+    }
+}
+ 
+
+
+.single-product .right-content .quantity-text {
+	margin-left: 10px;
+	width: 44px;
+	height: 44px;
+	line-height: 42px;
+	font-size: 14px;
+	font-weight: $bold;
+	color: $color-07;
+	display: $display-def;
+	text-align: center;
+	outline: none;
+	border: 1px solid $color-04;
+}
+
+
+
+.single-product .right-content .down-content span {
+	margin-bottom: 0px;
+	display: $display-def;
+	margin-left: 8px;
+	color: $color-05;
+}
+.single-product .right-content .down-content span a {
+	color: $color-05;
+	font-weight: 400;
+	margin-left: 4px;
+	transition: all 0.5s;
+}
+.single-product .right-content .down-content span a:hover {
+	color: $color-06;
+}
+.single-product .right-content .down-content span a:hover i {
+	background-color: $color-06;
+}
+.single-product .right-content .down-content span a i {
+	transition: all 0.5s;
+	background-color: $color-05;
+	width: 26px;
+	height: 26px;
+	display: $display-def;
+	text-align: center;
+	line-height: 26px;
+	border-radius: 50%;
+	color: $color-03;
+	font-size: 12px;
+	margin-right: 5px;
+}
+.single-product .right-content .down-content .categories {
+	border-top: 1px solid $color-04;
+	margin-top: $scn-sz;
+	padding: 10px 0px;
+}
+.single-product .right-content .down-content .share {
+	border-top: 1px solid $color-04;
+	padding: 10px 0px;
+}
+.single-product .right-content .down-content h6 {
+	font-size: 14px;
+	color: $color-07;
+	font-weight: 400;
+}

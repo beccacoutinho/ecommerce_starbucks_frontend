@@ -1,0 +1,53 @@
+/* Featured Style */
+.featured-items {
+	margin-bottom: 70px;
+}
+.featured-item {
+	border-radius: 5px;
+	border: 1px solid $color-04;
+	padding: 20px;
+	transition: all 0.5s;
+
+    &:hover {
+        opacity: 0.9;
+    }
+    img {
+        width: 100%;
+    }
+    h4 {
+        font-size: 17px;
+        font-weight: $bold;
+        color: $color-02;
+        margin-top: $margin-default;
+        transition: all 0.5s;
+    }
+    &:hover h4 {
+        color: $color-01;
+    }
+    h6 {
+        color: $color-01;
+        font-size: $font-normal;
+        font-weight: $bold;
+        margin-bottom: 0px;
+    }
+}
+
+
+.owl-theme .owl-dots {
+	text-align: center;
+	margin-top: $scn-sz;
+}
+.owl-theme .owl-dots .owl-dot {
+	outline: none;
+}
+.owl-theme .owl-dots .active span {
+	background-color: $color-01!important;
+}
+.owl-theme .owl-dots .owl-dot span {
+	background-color: $color-05;
+	width: 8px;
+	height: 8px;
+	display: $display-def;
+	margin: 0px 5px;
+	outline: none;
+}

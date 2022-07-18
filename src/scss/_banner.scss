@@ -1,0 +1,35 @@
+/* Banner Style */
+.banner {
+	margin-top: 50px;
+	background-image: url(../images/strb1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 150px 0px;
+	background-position: center center;
+
+    .caption {
+        background-color: rgba(250,250,250,0.9);
+        padding: $scn-sz;
+        max-width: 450px;
+
+        h2 {
+            margin-top: 0px;
+            margin-bottom: $margin-default;
+            font-size: 24px;
+            font-weight: $bold;
+            color: $color-02;
+        }
+
+        p {
+            margin-top: $margin-default;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+.banner .caption .line-dec {
+	width: $scn-sz;
+	height: 5px;
+	background-color: $color-01;
+}

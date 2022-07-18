@@ -1,0 +1,38 @@
+/* Featured Page Style */
+.featured-page {
+	margin-top: 130px;
+	margin-bottom: 40px;
+}
+.featured-page .section-heading {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.featured-page #filters {
+	margin-top: $margin-default;
+	text-align: right;
+}
+.featured .featured-item {
+	margin-bottom: $scn-sz;
+	text-decoration: none;
+}
+.featured .featured-item h4 {
+	transition: all 0.5s;
+}
+.featured .featured-item:hover h4 {
+	color: $color-06;
+}
+#filter button {
+	outline: none;
+}
+#filter .btn-primary.focus,
+.btn-primary:focus {
+	color: $color-06!important;
+	box-shadow: none!important;
+}
+#filters .btn-primary {
+	color: $color-02;
+	border: none;
+	font-size: $font-normal;
+	font-weight: $bold;
+	background-color: transparent;
+}
